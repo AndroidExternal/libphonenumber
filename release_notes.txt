@@ -1,3 +1,89 @@
+Jun 15, 2016: libphonenumber-7.4.3
+Metadata changes:
+ - Updated phone metadata for region code(s):
+   HK, HN, IN, KN, KW, SK, SN, TH, TZ
+ - Updated short number metadata for region code(s): AR, NO
+ - New geocoding data for country calling code(s): 93 (en), 504 (en)
+ - New carrier data for country calling code(s): 93 (fa), 98 (fa)
+ - Updated carrier data for country calling code(s):
+   66 (en), 91 (en), 255 (en), 421 (en)
+
+Jun 01, 2016: libphonenumber-7.4.2
+Code changes:
+ - Make C++ code forward compatible with an upcoming RE2 change.
+Metadata changes:
+ - Updated phone metadata for region code(s): AE, BZ, GU, IN, KR
+ - Updated short number metadata for region code(s): BR
+ - New geocoding data for country calling code(s): 501 (en)
+ - Updated carrier data for country calling code(s):
+   91 (en), 971 (en), 1671 (en)
+
+May 18, 2016: libphonenumber-7.4.1
+Metadata changes:
+ - Updated phone metadata for region code(s): FR, IL, KR
+ - Updated carrier data for country calling code(s): 972 (en)
+
+May 11, 2016: libphonenumber-7.4.0
+Maven changes:
+ - Repackage protobuf runtime dependency to prevent conflicts with clients'
+   protobuf dependencies. Backwards-compatible, so no changes needed for clients
+   who could use the previous release, but enables those with their own protobuf
+   dependencies to use this and future releases without workarounds.
+
+May 03, 2016: libphonenumber-7.3.2
+Metadata changes:
+ - Updated phone metadata for region code(s):
+   AU, BR, ET, IN, KH, ML, NO, SB, TJ, US
+ - Updated short number metadata for region code(s): CA, ML, US
+ - New geocoding data for country calling code(s): 223 (en)
+ - Updated geocoding data for country calling code(s):
+   27 (en), 55 (en, pt), 1 (en)
+ - Updated carrier data for country calling code(s):
+   61 (en), 91 (en), 223 (en), 251 (en), 677 (en), 992 (en)
+
+Apr 20, 2016: libphonenumber-7.3.1
+Metadata changes:
+ - Updated phone metadata for region code(s): DE, DJ, IL, IN, KH
+ - Updated short number metadata for region code(s): BR
+ - Updated carrier data for country calling code(s):
+   91 (en), 855 (en), 972 (en)
+
+Apr 05, 2016: libphonenumber-7.3.0
+Code changes:
+ - Added java/pending_code_changes.txt for contributors to track code changes
+   between releases.
+ - Reduced minimum required version of cmake to 2.8.
+ - Added cmake installation instructions for Mac.
+ - Added getExampleNumberForType that doesn't take in a region, and
+   getInvalidExampleNumber
+ - Improvements to javadoc for parse method
+ - Update isNumberGeographical to return true for geographical mobile numbers.
+Metadata changes:
+ - Updated phone metadata for region code(s):
+   BJ, BZ, CI, ET, GQ, KE, KW, ML, NO, OM, VN
+ - Updated short number metadata for region code(s): KE
+ - Updated geocoding data for country calling code(s):
+   84 (en), 251 (en), 254 (en)
+ - Updated carrier data for country calling code(s):
+   84 (en), 225 (en), 229 (en), 254 (en), 968 (en)
+
+Mar 21, 2016: libphonenumber-7.2.8
+Metadata changes:
+ - Updated phone metadata for region code(s): CL, CN, FO, KE, SE, SO
+ - Updated short number metadata for region code(s): FO
+ - Updated geocoding data for country calling code(s): 86 (en, zh)
+ - Updated carrier data for country calling code(s):
+   86 (en), 252 (en), 254 (en)
+
+Mar 09, 2016: libphonenumber-7.2.7
+Code changes:
+ - Update nationalPrefixOptionalWhenFormatting documentation.
+Metadata changes:
+ - Updated phone metadata for region code(s): CN, IN, MO, TK
+ - Updated short number metadata for region code(s): FR
+ - Updated carrier data for country calling code(s): 853 (en)
+ - Updated / refreshed time zone meta data.
+
 Feb 25, 2016: libphonenumber-7.2.6
 Metadata changes:
  - Updated phone metadata for region code(s): DJ, MA, NA, US
